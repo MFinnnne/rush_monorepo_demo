@@ -1,7 +1,7 @@
 function hello() {
-  console.log('hello');
+	console.log('hello')
 }
 
-export {
-  hello
-}
+export { hello }
+
+export * from './math/index'

@@ -44,6 +44,10 @@
     {
       "packageName": "my-utils",
       "projectFolder": "tools/my-utils"
+    },
+    {
+      "packageName": "my-app",
+      "projectFolder": "app/my-app"
     }
   ]
 }
