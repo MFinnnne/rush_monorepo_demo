@@ -1,4 +1,7 @@
-import jvuewhell from './packages'
 import Vue from 'vue'
-// 注册组件库
-Vue.use(jvuewhell)
+import App from './App.vue'
+
+new Vue({
+	el: '#app',
+	render: (h) => h(App),
+}).$mount()

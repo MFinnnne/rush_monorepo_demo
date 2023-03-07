@@ -1,53 +1,40 @@
-
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/rush/v5/rush.schema.json",
+	"$schema": "https://developer.microsoft.com/json-schemas/rush/v5/rush.schema.json",
 
+	"rushVersion": "5.93.1",
 
-  "rushVersion": "5.93.1",
+	"pnpmVersion": "6.7.1",
 
+	"nodeSupportedVersionRange": ">=12.13.0 <13.0.0 || >=14.15.0 <15.0.0 || >=16.13.0 <17.0.0",
 
-  "pnpmVersion": "6.7.1",
+	"gitPolicy": {},
 
-  "nodeSupportedVersionRange": ">=12.13.0 <13.0.0 || >=14.15.0 <15.0.0 || >=16.13.0 <17.0.0",
+	"repository": {},
 
- 
-  "gitPolicy": {
-   
-  },
+	"eventHooks": {
+		"preRushInstall": [],
 
-  "repository": {
-    
-  },
+		"postRushInstall": [],
 
- 
-  "eventHooks": {
-   
-    "preRushInstall": [
-     
-    ],
+		"preRushBuild": [],
 
-  
-    "postRushInstall": [],
+		"postRushBuild": []
+	},
 
-   
-    "preRushBuild": [],
+	"variants": [],
 
-  
-    "postRushBuild": []
-  },
-
-  "variants": [
-   
-  ],
- 
-  "projects": [
-    {
-      "packageName": "my-utils",
-      "projectFolder": "tools/my-utils"
-    },
-    {
-      "packageName": "my-app",
-      "projectFolder": "app/my-app"
-    }
-  ]
+	"projects": [
+		{
+			"packageName": "my-utils",
+			"projectFolder": "tools/my-utils"
+		},
+		{
+			"packageName": "my-app",
+			"projectFolder": "app/my-app"
+		},
+		{
+			"packageName": "vue2-ui",
+			"projectFolder": "ui/vue2-ui"
+		}
+	]
 }
