@@ -1,29 +1,32 @@
-
-<script>
-import canvasBroad from './components/canvasBroad.vue'
-
-export default {
-	name: 'App',
-	components: {
-		canvasBroad
-	},
+<script >
+export default{
+  name: 'App',
+  data(){
+    return{
+      name: 'Hello rush'
+    }
+  }
 }
 </script>
 
 <template>
-  <div style="height: 100px width:100px border: red 1px solid;">
-    <canvasBroad></canvasBroad>
+  <div>
+{{name}}
+
   </div>
 </template>
 
-
-<style>
-#app {
-	font-family: Avenir, Helvetica, Arial, sans-serif;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	text-align: center;
-	color: #2c3e50;
-	margin-top: 60px;
+<style scoped>
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.vue:hover {
+  filter: drop-shadow(0 0 2em #42b883aa);
 }
 </style>
