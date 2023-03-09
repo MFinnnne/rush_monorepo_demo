@@ -17,5 +17,6 @@
     "vite": "^4.1.0",
     "vue-tsc": "^1.0.24",
     "my-utils":"workspace:*"
+
   }
 }

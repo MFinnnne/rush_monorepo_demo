@@ -6,9 +6,9 @@ import { resolve } from 'path'
 export default defineConfig({
 	plugins: [vue()],
 	build: {
-		lig: {
+		lib: {
 			// Could also be a dictionary or array of multiple entry points
-			entry: resolve(__dirname, 'src/main.js'),
+			entry: resolve(__dirname, 'src/packages/index.js'),
 			name: 'TestBtn',
 			// the proper extensions will be added
 			fileName: (format) => `test-btn.${format}.js`,
