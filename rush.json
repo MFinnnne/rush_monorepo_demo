@@ -35,6 +35,10 @@
 		{
 			"packageName": "vue2-ui",
 			"projectFolder": "ui/vue2-ui"
+		},
+    {
+			"packageName": "my-app-vue2",
+			"projectFolder": "app/my-app-vue2"
 		}
 	]
 }

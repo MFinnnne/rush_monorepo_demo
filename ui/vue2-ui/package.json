@@ -5,6 +5,9 @@
   "type": "module",
   "main": "./dist/test-btn.umd.js",
   "module": "./dist/test-btn.es.js",
+  "files": [
+    "dist"
+  ],
   "exports": {
     ".": {
       "import": "./dist/test-btn.es.js",
