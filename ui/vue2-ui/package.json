@@ -3,8 +3,8 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "main": "./dist/test-btn.umd.js",
-  "module": "./dist/test-btn.es.js",
+  "main": "./dist/vue2.umd.js",
+  "module": "./dist/vue2.es.js",
   "files": [
     "dist"
   ],
