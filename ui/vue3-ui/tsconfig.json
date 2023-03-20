@@ -5,14 +5,33 @@
     "module": "ESNext",
     "moduleResolution": "Node",
     "strict": true,
+    "declaration": true,
+    "declarationDir": "./dist",
+    "outDir": "./dist",
     "jsx": "preserve",
     "resolveJsonModule": true,
     "isolatedModules": true,
     "esModuleInterop": true,
-    "lib": ["ESNext", "DOM"],
+    "paths": {
+      "@/*": [
+       "./*"
+      ]
+     },
+    "lib": [
+      "ESNext",
+      "DOM"
+    ],
     "skipLibCheck": true,
-    "noEmit": true
   },
-  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"],
-  "references": [{ "path": "./tsconfig.node.json" }]
+  "include": [
+    "src/packages/**/*.ts",
+    "src/packages/**/*.d.ts",
+    "src/packages/**/*.tsx",
+    "src/packages/**/*.vue"
+  ],
+  "references": [
+    {
+      "path": "./tsconfig.node.json"
+    }
+  ]
 }

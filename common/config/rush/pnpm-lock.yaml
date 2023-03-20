@@ -5,23 +5,6 @@ importers:
   .:
     specifiers: {}
 
-  ../../app/my-app:
-    specifiers:
-      '@vitejs/plugin-vue': ^4.0.0
-      my-utils: workspace:*
-      typescript: ^4.9.3
-      vite: ^4.1.0
-      vue: ^3.2.45
-      vue-tsc: ^1.0.24
-    dependencies:
-      vue: 3.2.47
-    devDependencies:
-      '@vitejs/plugin-vue': 4.0.0_vite@4.1.4+vue@3.2.47
-      my-utils: link:../../tools/my-utils
-      typescript: 4.9.5
-      vite: 4.1.4
-      vue-tsc: 1.2.0_typescript@4.9.5
-
   ../../app/my-app-vue2:
     specifiers:
       '@babel/core': ^7.12.16
@@ -48,6 +31,23 @@ importers:
       eslint: 7.32.0
       eslint-plugin-vue: 8.7.1_eslint@7.32.0
       vue-template-compiler: 2.7.14
+
+  ../../app/my-app-vue3:
+    specifiers:
+      '@vitejs/plugin-vue': ^4.0.0
+      my-utils: workspace:*
+      typescript: ^4.9.3
+      vite: ^4.1.0
+      vue: ^3.2.45
+      vue-tsc: ^1.0.24
+    dependencies:
+      vue: 3.2.47
+    devDependencies:
+      '@vitejs/plugin-vue': 4.0.0_vite@4.1.4+vue@3.2.47
+      my-utils: link:../../tools/my-utils
+      typescript: 4.9.5
+      vite: 4.1.4
+      vue-tsc: 1.2.0_typescript@4.9.5
 
   ../../tools/my-utils:
     specifiers:
@@ -86,6 +86,21 @@ importers:
     devDependencies:
       '@vitejs/plugin-vue2': 2.2.0_vite@4.1.4+vue@2.7.14
       vite: 4.1.4
+
+  ../../ui/vue3-ui:
+    specifiers:
+      '@vitejs/plugin-vue': ^4.0.0
+      typescript: ^4.9.3
+      vite: ^4.1.0
+      vue: ^3.2.45
+      vue-tsc: ^1.0.24
+    dependencies:
+      vue: 3.2.47
+    devDependencies:
+      '@vitejs/plugin-vue': 4.0.0_vite@4.1.4+vue@3.2.47
+      typescript: 4.9.5
+      vite: 4.1.4
+      vue-tsc: 1.2.0_typescript@4.9.5
 
 packages:
 

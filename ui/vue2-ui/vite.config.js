@@ -11,7 +11,7 @@ export default defineConfig({
 			entry: resolve(__dirname, 'src/packages/index.js'),
 			name: 'TestBtn',
 			// the proper extensions will be added
-			fileName: (format) => `test-btn.${format}.js`,
+			fileName: (format) => `vue2.${format}.js`,
 		},
 		rollupOptions: {
 			// 确保外部化处理那些你不想打包进库的依赖

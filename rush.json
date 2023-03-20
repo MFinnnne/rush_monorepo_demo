@@ -28,15 +28,19 @@
 			"packageName": "my-utils",
 			"projectFolder": "tools/my-utils"
 		},
+    {
+			"packageName": "vue3-ui",
+			"projectFolder": "ui/vue3-ui"
+		},
 		{
-			"packageName": "my-app",
-			"projectFolder": "app/my-app"
+			"packageName": "my-app-vue3",
+			"projectFolder": "app/my-app-vue3"
 		},
 		{
 			"packageName": "vue2-ui",
 			"projectFolder": "ui/vue2-ui"
 		},
-    {
+		{
 			"packageName": "my-app-vue2",
 			"projectFolder": "app/my-app-vue2"
 		}
