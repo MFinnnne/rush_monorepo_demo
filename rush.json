@@ -30,11 +30,13 @@
   "projects": [
     {
       "packageName": "my-utils",
-      "projectFolder": "tools/my-utils"
+      "projectFolder": "tools/my-utils",
+      "shouldPublish": true
     },
     {
       "packageName": "vue3-ui",
-      "projectFolder": "ui/vue3-ui"
+      "projectFolder": "ui/vue3-ui",
+      "shouldPublish": true
     },
     {
       "packageName": "my-app-vue3",
