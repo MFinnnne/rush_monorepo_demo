@@ -10,8 +10,8 @@
   ],
   "exports": {
     ".": {
-      "import": "./dist/test-btn.es.js",
-      "require": "./dist/test-btn.umd.js"
+      "import": "./dist/vue2.es.js",
+      "require": "./dist/vue2.umd.js"
     }
   },
   "scripts": {
