@@ -5,13 +5,12 @@
   "type": "module",
   "main": "./dist/vue3.umd.js",
   "module": "./dist/vue3.es.js",
-  "typings": "./dist/index.d.ts",
   "files": [
     "dist"
   ],
   "scripts": {
     "dev": "vite",
-    "build": "vue-tsc --declaration --noEmit&& vite build&&tsc",
+    "build": "vue-tsc --declaration --noEmit&& vite build",
     "preview": "vite preview"
   },
   "dependencies": {

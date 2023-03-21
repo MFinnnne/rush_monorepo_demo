@@ -5,5 +5,5 @@
 <script>
 export default {
   name: 'test-btn'
-}
-</script> 
+};
+</script>

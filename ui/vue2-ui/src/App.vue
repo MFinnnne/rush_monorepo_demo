@@ -1,18 +1,17 @@
-<script >
-export default{
+<script>
+export default {
   name: 'App',
-  data(){
-    return{
+  data() {
+    return {
       name: 'Hello rush'
-    }
+    };
   }
-}
+};
 </script>
 
 <template>
   <div>
-{{name}}
-
+    {{ name }}
   </div>
 </template>
 
