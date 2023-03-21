@@ -1,6 +1,6 @@
 {
   "name": "vue2-ui",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "main": "./dist/vue2.umd.js",

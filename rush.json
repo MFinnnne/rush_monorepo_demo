@@ -1,48 +1,53 @@
 {
-	"$schema": "https://developer.microsoft.com/json-schemas/rush/v5/rush.schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/rush/v5/rush.schema.json",
 
-	"rushVersion": "5.93.1",
+  "rushVersion": "5.93.1",
 
-	"pnpmVersion": "6.7.1",
+  "pnpmVersion": "6.7.1",
 
-	"nodeSupportedVersionRange": ">=12.13.0 <13.0.0 || >=14.15.0 <15.0.0 || >=16.13.0 <17.0.0",
+  "nodeSupportedVersionRange": ">=12.13.0 <13.0.0 || >=14.15.0 <15.0.0 || >=16.13.0 <17.0.0",
 
-	"gitPolicy": {},
+  "gitPolicy": {},
 
-	"repository": {},
+  "repository": {
+    "url": "https://github.com/MFinnnne/rush_monorepo_demo.git",
+    "defaultBranch": "main",
+    "defaultRemote": "origin"
+  },
 
-	"eventHooks": {
-		"preRushInstall": [],
+  "eventHooks": {
+    "preRushInstall": [],
 
-		"postRushInstall": [],
+    "postRushInstall": [],
 
-		"preRushBuild": [],
+    "preRushBuild": [],
 
-		"postRushBuild": []
-	},
+    "postRushBuild": []
+  },
 
-	"variants": [],
+  "variants": [],
 
-	"projects": [
-		{
-			"packageName": "my-utils",
-			"projectFolder": "tools/my-utils"
-		},
+  "projects": [
     {
-			"packageName": "vue3-ui",
-			"projectFolder": "ui/vue3-ui"
-		},
-		{
-			"packageName": "my-app-vue3",
-			"projectFolder": "app/my-app-vue3"
-		},
-		{
-			"packageName": "vue2-ui",
-			"projectFolder": "ui/vue2-ui"
-		},
-		{
-			"packageName": "my-app-vue2",
-			"projectFolder": "app/my-app-vue2"
-		}
-	]
+      "packageName": "my-utils",
+      "projectFolder": "tools/my-utils"
+    },
+    {
+      "packageName": "vue3-ui",
+      "projectFolder": "ui/vue3-ui"
+    },
+    {
+      "packageName": "my-app-vue3",
+      "projectFolder": "app/my-app-vue3"
+    },
+    {
+      "packageName": "vue2-ui",
+      "projectFolder": "ui/vue2-ui",
+      "shouldPublish": true
+    },
+    {
+      "packageName": "my-app-vue2",
+      "projectFolder": "app/my-app-vue2"
+    }
+  ]
 }
