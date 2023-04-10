@@ -1,0 +1,10 @@
+{
+  "changes": [
+    {
+      "packageName": "vue3-ui",
+      "comment": "test mat",
+      "type": "patch"
+    }
+  ],
+  "packageName": "vue3-ui"
+}

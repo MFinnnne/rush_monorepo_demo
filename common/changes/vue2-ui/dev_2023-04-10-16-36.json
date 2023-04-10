@@ -1,0 +1,10 @@
+{
+  "changes": [
+    {
+      "packageName": "vue2-ui",
+      "comment": "add mat_add",
+      "type": "minor"
+    }
+  ],
+  "packageName": "vue2-ui"
+}

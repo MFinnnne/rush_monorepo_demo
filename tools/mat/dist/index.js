@@ -123,6 +123,7 @@ var Vector = /*#__PURE__*/function () {
   }]);
   return Vector;
 }();
+
 var Matrix = /*#__PURE__*/function () {
   function Matrix(twoDimArray) {
     var _this = this;
@@ -291,37 +292,4 @@ var Matrix = /*#__PURE__*/function () {
   return Matrix;
 }();
 
-function add(a, b) {
-  return a + b;
-}
-function minus(a, b) {
-  return a - b;
-}
-function multiply(a, b) {
-  return a * b;
-}
-function divide(a, b) {
-  return a / b;
-}
-function square(a) {
-  return a * a;
-}
-function mat_add(mat1, mat2) {
-  var m1 = new Matrix(mat1);
-  var m2 = new Matrix(mat2);
-  console.log(m1);
-  console.log(m2);
-  return m1.add(m2);
-}
-
-function hello() {
-  console.log('hello');
-}
-
-exports.add = add;
-exports.divide = divide;
-exports.hello = hello;
-exports.mat_add = mat_add;
-exports.minus = minus;
-exports.multiply = multiply;
-exports.square = square;
+exports.Matrix = Matrix;

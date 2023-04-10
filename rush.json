@@ -50,6 +50,11 @@
     {
       "packageName": "my-app-vue2",
       "projectFolder": "app/my-app-vue2"
+    },
+    {
+      "packageName": "mat",
+      "projectFolder": "tools/mat",
+      "shouldPublish": true
     }
   ]
 }

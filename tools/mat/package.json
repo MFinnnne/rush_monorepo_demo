@@ -1,5 +1,5 @@
 {
-  "name": "my-utils",
+  "name": "mat",
   "version": "1.0.0",
   "description": "",
   "main": "./dist/index.js",
@@ -13,9 +13,6 @@
     "test": "node test/test.js",
     "pretest": "npm run build"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "@babel/plugin-transform-runtime": "^7.21.0",
     "@babel/preset-env": "^7.20.2",
@@ -26,10 +23,12 @@
     "rollup": "^3.18.0",
     "rollup-plugin-terser": "^7.0.2",
     "rollup-plugin-typescript2": "^0.34.1",
-    "typescript": "^4.9.5",
-    "mat": "workspace:^1.0.0"
+    "typescript": "^4.9.5"
   },
   "dependencies": {
     "@babel/core": "~7.21.0"
-  }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
