@@ -1,0 +1,22 @@
+{
+  "name": "my-utils",
+  "entries": [
+    {
+      "version": "1.1.0",
+      "tag": "my-utils_v1.1.0",
+      "date": "Mon, 10 Apr 2023 17:04:46 GMT",
+      "comments": {
+        "minor": [
+          {
+            "comment": "add mat_add"
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"mat\" from `^1.0.0` to `^1.1.0`"
+          }
+        ]
+      }
+    }
+  ]
+}

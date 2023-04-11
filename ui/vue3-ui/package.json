@@ -1,7 +1,7 @@
 {
   "name": "vue3-ui",
   "private": false,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "main": "./dist/vue3.umd.js",
   "module": "./dist/vue3.es.js",
@@ -11,6 +11,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --declaration --noEmit&& vite build",
+    "build:watch": "npm run build",
     "preview": "vite preview"
   },
   "dependencies": {

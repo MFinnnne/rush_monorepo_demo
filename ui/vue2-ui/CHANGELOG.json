@@ -1,0 +1,25 @@
+{
+  "name": "vue2-ui",
+  "entries": [
+    {
+      "version": "0.1.0",
+      "tag": "vue2-ui_v0.1.0",
+      "date": "Mon, 10 Apr 2023 17:04:46 GMT",
+      "comments": {
+        "minor": [
+          {
+            "comment": "add mat"
+          },
+          {
+            "comment": "add mat_add"
+          }
+        ],
+        "patch": [
+          {
+            "comment": "add mat_add"
+          }
+        ]
+      }
+    }
+  ]
+}

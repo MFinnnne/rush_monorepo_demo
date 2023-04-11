@@ -1,0 +1,23 @@
+{
+  "name": "vue3-ui",
+  "entries": [
+    {
+      "version": "0.0.1",
+      "tag": "vue3-ui_v0.0.1",
+      "date": "Mon, 10 Apr 2023 17:04:46 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "test mat"
+          },
+          {
+            "comment": "test mat"
+          },
+          {
+            "comment": "test mat"
+          }
+        ]
+      }
+    }
+  ]
+}

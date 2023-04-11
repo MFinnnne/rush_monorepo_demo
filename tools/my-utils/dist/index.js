@@ -132,7 +132,7 @@ var Matrix = /*#__PURE__*/function () {
       return _this.getRowNum();
     });
     this.twoDimArray = twoDimArray;
-    console.log("我改动了这里");
+    console.log('我改动了这里');
   }
   _createClass(Matrix, [{
     key: "shape",

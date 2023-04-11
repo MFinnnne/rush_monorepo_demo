@@ -16,7 +16,7 @@ importers:
       eslint: ^7.32.0
       eslint-plugin-vue: ^8.0.3
       lodash: ~4.17.21
-      mat: workspace:^1.0.0
+      mat: workspace:^1.1.0
       my-utils: workspace:*
       vue: ^2.6.14
       vue-template-compiler: ^2.6.14
@@ -90,7 +90,7 @@ importers:
       '@rollup/plugin-babel': ^6.0.3
       '@rollup/plugin-commonjs': ^24.0.1
       '@rollup/plugin-node-resolve': ^15.0.1
-      mat: workspace:^1.0.0
+      mat: workspace:^1.1.0
       rimraf: ^4.3.0
       rollup: ^3.18.0
       rollup-plugin-terser: ^7.0.2
