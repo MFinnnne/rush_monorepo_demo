@@ -29,7 +29,7 @@
 
   "projects": [
     {
-      "packageName": "my-utils",
+      "packageName": "my-test-utils",
       "projectFolder": "tools/my-utils",
       "shouldPublish": true
     },
@@ -52,7 +52,7 @@
       "projectFolder": "app/my-app-vue2"
     },
     {
-      "packageName": "mat",
+      "packageName": "my-test-mat",
       "projectFolder": "tools/mat",
       "shouldPublish": true
     }
