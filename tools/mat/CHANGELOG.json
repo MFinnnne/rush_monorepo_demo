@@ -2,6 +2,18 @@
   "name": "mat",
   "entries": [
     {
+      "version": "1.1.1",
+      "tag": "mat_v1.1.1",
+      "date": "Wed, 12 Apr 2023 10:40:49 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "test"
+          }
+        ]
+      }
+    },
+    {
       "version": "1.1.0",
       "tag": "mat_v1.1.0",
       "date": "Mon, 10 Apr 2023 17:04:46 GMT",

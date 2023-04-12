@@ -2,6 +2,18 @@
   "name": "vue2-ui",
   "entries": [
     {
+      "version": "0.1.1",
+      "tag": "vue2-ui_v0.1.1",
+      "date": "Wed, 12 Apr 2023 10:40:49 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "test"
+          }
+        ]
+      }
+    },
+    {
       "version": "0.1.0",
       "tag": "vue2-ui_v0.1.0",
       "date": "Mon, 10 Apr 2023 17:04:46 GMT",
