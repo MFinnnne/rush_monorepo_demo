@@ -11,23 +11,39 @@
       "autoinstallerName": "rush-prettier",
       "shellCommand": "pretty-quick --staged"
     },
+    {
+      "name": "pn",
+      "commandKind": "global",
+      "summary": "used by publish to npm",
+      "safeForSimultaneousRushProcesses": true,
+      "shellCommand": "rush publish --target-branch main  --publish"
+    },
+    {
+      "name": "te",
+      "commandKind": "global",
+      "summary": "build my-app-vue2 project's dependencies and do not build my-app-vue2",
+      "safeForSimultaneousRushProcesses": true,
+      "shellCommand": "rush build:watch --to-except my-app-vue2"
+    },
 		{
+			"commandKind": "bulk",
+			"name": "build:watch",
+			"summary": "used by build when file changes",
+			"description": "watch file changes and build",
+      "incremental": true,
+      "enableParallelism": true,
+      "watchForChanges": true
+		},
+    {
 			"commandKind": "bulk",
 			"name": "build",
 			"summary": "Imports translated strings into each project.",
 			"description": "Requests translated strings from the translation service and imports them into each project.",
 			"enableParallelism": true
-		},
-    {
-			"commandKind": "bulk",
-			"name": "dev",
-			"summary": "Imports translated strings into each project.",
-			"description": "Requests translated strings from the translation service and imports them into each project.",
-			"enableParallelism": true
 		}
+
 	],
 
 	"parameters": [
-
 	]
 }

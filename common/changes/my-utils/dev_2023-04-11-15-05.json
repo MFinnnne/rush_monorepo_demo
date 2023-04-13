@@ -1,0 +1,10 @@
+{
+  "changes": [
+    {
+      "packageName": "my-utils",
+      "comment": "test",
+      "type": "patch"
+    }
+  ],
+  "packageName": "my-utils"
+}

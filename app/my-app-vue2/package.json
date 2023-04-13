@@ -5,12 +5,15 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "build:watch": "npm run build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "core-js": "^3.8.3",
     "vue": "^2.6.14",
-    "vue2-ui":"workspace:*"
+    "vue2-ui": "workspace:*",
+    "my-test-utils": "workspace:*",
+    "lodash": "~4.17.21"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
