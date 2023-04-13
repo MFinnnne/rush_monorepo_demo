@@ -2,10 +2,7 @@
 import Vector from './Vector';
 
 export default class Matrix {
-  private twoDimArray: number[][];
-  constructor(twoDimArray: number[][]) {
-    this.twoDimArray = twoDimArray;
-  }
+  constructor(private twoDimArray: number[][]) {}
 
   /**
    * 矩阵形状
