@@ -28,7 +28,7 @@
     "rollup-plugin-terser": "^7.0.2",
     "rollup-plugin-typescript2": "^0.34.1",
     "typescript": "^4.9.5",
-    "my-test-mat": "workspace:^1.1.0"
+    "my-test-mat": "workspace:^1.2.0"
   },
   "dependencies": {
     "@babel/core": "~7.21.0"
