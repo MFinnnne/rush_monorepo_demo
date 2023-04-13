@@ -10,10 +10,6 @@ export default class Vector {
   // 向量的长度
   len = this.getDimension();
 
-  /**
-   * 获取向量的特定元素
-   * @param index 目标元素索引
-   */
   getItem(index: number): number {
     return this.list[index];
   }
