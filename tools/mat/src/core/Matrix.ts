@@ -5,7 +5,6 @@ export default class Matrix {
   private twoDimArray: number[][];
   constructor(twoDimArray: number[][]) {
     this.twoDimArray = twoDimArray;
-    console.log('我改动了这里');
   }
 
   /**
