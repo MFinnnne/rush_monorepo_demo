@@ -1,4 +1,4 @@
-import { Matrix } from 'mat';
+import { Matrix } from 'my-test-mat';
 
 // add function
 export function add(a: number, b: number) {

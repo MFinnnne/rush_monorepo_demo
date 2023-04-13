@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { onMounted, ref } from 'vue';
-import { add } from 'my-utils';
 import Matrix from './Matrix';
 
 defineProps<{ msg: string }>();

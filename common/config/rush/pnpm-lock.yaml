@@ -16,15 +16,14 @@ importers:
       eslint: ^7.32.0
       eslint-plugin-vue: ^8.0.3
       lodash: ~4.17.21
-      mat: workspace:^1.1.0
-      my-utils: workspace:*
+      my-test-utils: workspace:*
       vue: ^2.6.14
       vue-template-compiler: ^2.6.14
       vue2-ui: workspace:*
     dependencies:
       core-js: 3.29.0
       lodash: 4.17.21
-      my-utils: link:../../tools/my-utils
+      my-test-utils: link:../../tools/my-utils
       vue: 2.7.14
       vue2-ui: link:../../ui/vue2-ui
     devDependencies:
@@ -35,13 +34,12 @@ importers:
       '@vue/cli-service': 5.0.8_dd6b42d4aaa6db3c79110c9cb9819366
       eslint: 7.32.0
       eslint-plugin-vue: 8.7.1_eslint@7.32.0
-      mat: link:../../tools/mat
       vue-template-compiler: 2.7.14
 
   ../../app/my-app-vue3:
     specifiers:
       '@vitejs/plugin-vue': ^4.0.0
-      my-utils: workspace:*
+      my-test-utils: workspace:*
       typescript: ^4.9.3
       vite: ^4.1.0
       vue: ^3.2.45
@@ -50,7 +48,7 @@ importers:
       vue: 3.2.47
     devDependencies:
       '@vitejs/plugin-vue': 4.0.0_vite@4.1.4+vue@3.2.47
-      my-utils: link:../../tools/my-utils
+      my-test-utils: link:../../tools/my-utils
       typescript: 4.9.5
       vite: 4.1.4
       vue-tsc: 1.2.0_typescript@4.9.5
@@ -90,7 +88,7 @@ importers:
       '@rollup/plugin-babel': ^6.0.3
       '@rollup/plugin-commonjs': ^24.0.1
       '@rollup/plugin-node-resolve': ^15.0.1
-      mat: workspace:^1.1.0
+      my-test-mat: workspace:^1.1.0
       rimraf: ^4.3.0
       rollup: ^3.18.0
       rollup-plugin-terser: ^7.0.2
@@ -104,7 +102,7 @@ importers:
       '@rollup/plugin-babel': 6.0.3_@babel+core@7.21.0+rollup@3.18.0
       '@rollup/plugin-commonjs': 24.0.1_rollup@3.18.0
       '@rollup/plugin-node-resolve': 15.0.1_rollup@3.18.0
-      mat: link:../mat
+      my-test-mat: link:../mat
       rimraf: 4.3.0
       rollup: 3.18.0
       rollup-plugin-terser: 7.0.2_rollup@3.18.0
