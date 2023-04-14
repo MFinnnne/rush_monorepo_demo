@@ -15,7 +15,7 @@ export function multiply(a: number, b: number) {
   return a * b;
 }
 
-//test 121312 1231312
+//test
 export function divide(a: number, b: number) {
   return a / b;
 }
