@@ -1,40 +1,31 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/rush/v5/rush.schema.json",
-
-  "rushVersion": "5.93.1",
-
+  "rushVersion": "5.97.0",
   "pnpmVersion": "6.7.1",
-
   "nodeSupportedVersionRange": ">=12.13.0 <13.0.0 || >=14.15.0 <15.0.0 || >=16.13.0 <17.0.0",
-
   "gitPolicy": {},
-
   "repository": {
     "url": "https://github.com/MFinnnne/rush_monorepo_demo.git",
     "defaultBranch": "main",
     "defaultRemote": "origin"
   },
-
   "eventHooks": {
     "preRushInstall": [],
-
     "postRushInstall": [],
-
     "preRushBuild": [],
-
     "postRushBuild": []
   },
-
   "variants": [],
-
   "projects": [
     {
       "packageName": "my-test-utils",
-      "projectFolder": "tools/my-utils"
+      "projectFolder": "tools/my-utils",
+      "shouldPublish": true
     },
     {
       "packageName": "vue3-ui",
-      "projectFolder": "ui/vue3-ui"
+      "projectFolder": "ui/vue3-ui",
+      "shouldPublish": true
     },
     {
       "packageName": "my-app-vue3",
@@ -42,7 +33,8 @@
     },
     {
       "packageName": "vue2-ui",
-      "projectFolder": "ui/vue2-ui"
+      "projectFolder": "ui/vue2-ui",
+      "shouldPublish": true
     },
     {
       "packageName": "my-app-vue2",

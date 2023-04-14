@@ -6,6 +6,9 @@
   "module": "./dist/index.esm.js",
   "umd": "./dist/index.umd.js",
   "types": "./dist/types/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "clean:dist": "rimraf dist",
     "build:types": "npm run clean:dist && tsc -b ./tsconfig.types.json",
@@ -32,5 +35,8 @@
   },
   "dependencies": {
     "@babel/core": "~7.21.0"
+  },
+  "publishConfig": {
+    "registry": "http://192.168.1.203:4873/"
   }
 }
