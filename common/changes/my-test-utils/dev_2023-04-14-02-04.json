@@ -1,0 +1,10 @@
+{
+  "changes": [
+    {
+      "packageName": "my-test-utils",
+      "comment": "test",
+      "type": "minor"
+    }
+  ],
+  "packageName": "my-test-utils"
+}
