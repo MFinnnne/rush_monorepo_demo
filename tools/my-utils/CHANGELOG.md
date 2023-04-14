@@ -1,6 +1,13 @@
 # Change Log - my-test-utils
 
-This log was last generated on Fri, 14 Apr 2023 03:55:46 GMT and should not be manually modified.
+This log was last generated on Fri, 14 Apr 2023 08:26:03 GMT and should not be manually modified.
+
+## 1.3.7
+Fri, 14 Apr 2023 08:26:03 GMT
+
+### Patches
+
+- test
 
 ## 1.3.6
 Fri, 14 Apr 2023 03:55:46 GMT
