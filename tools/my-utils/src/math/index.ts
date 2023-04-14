@@ -10,7 +10,7 @@ export function minus(a: number, b: number) {
   return a - b;
 }
 
-// multiply function
+// multiply function 12312312
 export function multiply(a: number, b: number) {
   return a * b;
 }
