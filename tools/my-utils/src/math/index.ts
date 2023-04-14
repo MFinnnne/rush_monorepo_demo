@@ -10,12 +10,12 @@ export function minus(a: number, b: number) {
   return a - b;
 }
 
-// multiply function 12312312
+// multiply function
 export function multiply(a: number, b: number) {
   return a * b;
 }
 
-//test
+//test 1221121212
 export function divide(a: number, b: number) {
   return a / b;
 }
