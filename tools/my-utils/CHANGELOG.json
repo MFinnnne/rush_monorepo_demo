@@ -2,6 +2,18 @@
   "name": "my-test-utils",
   "entries": [
     {
+      "version": "1.2.1",
+      "tag": "my-test-utils_v1.2.1",
+      "date": "Fri, 14 Apr 2023 01:34:05 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "fix bug"
+          }
+        ]
+      }
+    },
+    {
       "version": "1.2.0",
       "tag": "my-test-utils_v1.2.0",
       "date": "Fri, 14 Apr 2023 01:13:09 GMT",
