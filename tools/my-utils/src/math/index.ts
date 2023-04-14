@@ -15,12 +15,12 @@ export function multiply(a: number, b: number) {
   return a * b;
 }
 
-// divide function
+//test
 export function divide(a: number, b: number) {
   return a / b;
 }
 
-// square function
+// square function 31232131
 export function square(a: number) {
   return a * a;
 }

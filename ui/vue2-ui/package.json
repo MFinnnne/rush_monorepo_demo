@@ -1,7 +1,7 @@
 {
   "name": "vue2-ui",
   "private": false,
-  "version": "0.1.0",
+  "version": "1.2.0",
   "type": "module",
   "main": "./dist/vue2.umd.js",
   "module": "./dist/vue2.es.js",
@@ -26,5 +26,8 @@
   "devDependencies": {
     "@vitejs/plugin-vue2": "~2.2.0",
     "vite": "^4.1.0"
+  },
+  "publishConfig": {
+    "registry": "http://192.168.1.203:4873/"
   }
 }

@@ -11,8 +11,8 @@
   "dependencies": {
     "core-js": "^3.8.3",
     "vue": "^2.6.14",
-    "vue2-ui": "workspace:*",
-    "my-test-utils": "workspace:*",
+    "vue2-ui": "workspace:^1.2.0",
+    "my-test-utils": "workspace:^1.3.2",
     "lodash": "~4.17.21"
   },
   "devDependencies": {
@@ -23,7 +23,8 @@
     "@vue/cli-service": "~5.0.0",
     "eslint": "^7.32.0",
     "eslint-plugin-vue": "^8.0.3",
-    "vue-template-compiler": "^2.6.14"
+    "vue-template-compiler": "^2.6.14",
+    "@babel/runtime": "~7.21.0"
   },
   "eslintConfig": {
     "root": true,

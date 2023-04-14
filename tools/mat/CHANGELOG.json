@@ -1,6 +1,30 @@
 {
-  "name": "mat",
+  "name": "my-test-mat",
   "entries": [
+    {
+      "version": "1.3.0",
+      "tag": "my-test-mat_v1.3.0",
+      "date": "Fri, 14 Apr 2023 01:13:09 GMT",
+      "comments": {
+        "minor": [
+          {
+            "comment": "test"
+          }
+        ]
+      }
+    },
+    {
+      "version": "1.2.0",
+      "tag": "my-test-mat_v1.2.0",
+      "date": "Thu, 13 Apr 2023 07:18:35 GMT",
+      "comments": {
+        "minor": [
+          {
+            "comment": "test"
+          }
+        ]
+      }
+    },
     {
       "version": "1.1.0",
       "tag": "mat_v1.1.0",
