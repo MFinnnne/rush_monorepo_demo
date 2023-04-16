@@ -20,7 +20,7 @@ export function divide(a: number, b: number) {
   return a / b;
 }
 
-// square function 31232131
+// square function
 export function square(a: number) {
   return a * a;
 }
