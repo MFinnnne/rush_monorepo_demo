@@ -44,6 +44,10 @@
       "packageName": "my-test-mat",
       "projectFolder": "tools/mat",
       "shouldPublish": true
+    },
+    {
+      "packageName": "doc",
+      "projectFolder": "doc"
     }
   ]
 }
