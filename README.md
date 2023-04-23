@@ -16,5 +16,32 @@
   - my-app-vue3:  vue2网页示例
 - **common**：rushjs的相关配置
 
+
 > deploy.py 只是进行了docker 镜像构建和推送到远程仓库的作用 并未登录到docker，所以直接使用会失败。登录操作需要集成到ci中使用相关功能确保密码和用户名不会泄露。不能把密码等敏感参数写在脚本里面
+
+## 快速体验
+
+- clone仓库
+
+> git clone git@github.com:MFinnnne/rush_monorepo_demo.git
+
+- 进入项目目录后执行
+
+> rush update   \# 按需安装 NPM 包
+
+- 进入某个项目内然后build
+
+> rush rebuild  # 清理并重新构建所有项目
+>
+> 或者开启监听模式下的自动build
+>
+> rush te  或者 rush build:watch --to-except my-app-vue2 
+
+-  进入 my-app-vue2项目运行， 假设 package.json 内存在 "start" 指令。 (通过 "rushx" 来查看可用的命令)
+
+> rushx serve
+
+当你开启监听模式的build，当你更改 mat项目或者utils项目下的代码时就会自动更新依赖
+
+
 
