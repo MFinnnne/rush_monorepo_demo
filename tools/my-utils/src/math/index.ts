@@ -28,6 +28,7 @@ export function square(a: number) {
 export function mat_add(mat1: number[][], mat2: number[][]): Matrix | void {
   const m1 = new Matrix(mat1);
   const m2 = new Matrix(mat2);
+  console.log('im ok');
   console.log(m1);
   console.log(m2);
   return m1.add(m2);

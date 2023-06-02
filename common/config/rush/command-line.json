@@ -23,7 +23,7 @@
       "commandKind": "global",
       "summary": "build my-app-vue2 project's dependencies and do not build my-app-vue2",
       "safeForSimultaneousRushProcesses": true,
-      "shellCommand": "rush build:watch --to-except my-app-vue2"
+      "shellCommand": "rush build --to-except my-app-vue2"
     },
 		{
 			"commandKind": "bulk",
@@ -39,7 +39,9 @@
 			"name": "build",
 			"summary": "Imports translated strings into each project.",
 			"description": "Requests translated strings from the translation service and imports them into each project.",
-			"enableParallelism": true
+			"enableParallelism": true,
+      "incremental": true,
+      "watchForChanges": true
 		}
 
 	],
